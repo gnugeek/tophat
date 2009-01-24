@@ -1,0 +1,3 @@
+A toy for monitoring a system with sinatra.
+
+thin start -R config.ru
