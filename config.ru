@@ -3,10 +3,10 @@
  
 require 'sinatra'
  
-require File.join(File.dirname(__FILE__), 'tophat.rb')
+require File.join(File.dirname(__FILE__), 'top.rb')
  
 set :environment, :development
 
-map "/" do
-  run TopHat
+map "/top" do
+  run TopHat::Top
 end
